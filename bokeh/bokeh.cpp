@@ -108,7 +108,8 @@ int main()
 
 	imshow("result", inputimg);
 //	imwrite("not_subtract_source.png", inputimg * 255.0);
-	imwrite("subtract_source.png", inputimg * 255.0);
+//	imwrite("subtract_source.png", inputimg * 255.0);
+	imwrite("bokeh_result.png", inputimg * 255.0);
 	waitKey(0);
 
 	return 0;
